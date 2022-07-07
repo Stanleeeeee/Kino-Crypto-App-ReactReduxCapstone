@@ -1,6 +1,9 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
+import { fetchGetCoins, filterCoins, setDetail } from '../../redux/coins';
+import CoinItem from './CoinItem';
+import style from './coins.module.css';
 
 const Coins = () => {
   const dispatch = useDispatch();
