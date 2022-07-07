@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux';
-import style from './topCoin.module.css';
+import style from './topCoin.css';
 
 const TopCoin = () => {
   const { coins } = useSelector((state) => state.coins);
