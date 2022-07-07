@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import { fetchGetCoins, filterCoins, setDetail } from '../../redux/coins';
 import CoinItem from './CoinItem';
-import style from './coins.module.css';
+import style from './coins.css';
 
 const Coins = () => {
   const dispatch = useDispatch();
