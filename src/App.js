@@ -1,25 +1,25 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Navigation from './feature/navigation/Navigation';
-import Coins from './feature/coins/Coins';
-import TopCoin from './feature/coins/TopCoin';
-import CoinsDetail from './feature/coins/CoinsDetail';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navigation from './components/navigation/Navigation';
+import Coins from './components/coins/Coins';
+import TopCoin from './components/coins/TopCoin';
+import CoinsDetail from './components/coins/CoinsDetail';
 
 function App() {
   return (
-    <Router>
-      <Navigation />
-      <Switch>
-        <Route exact path="/">
+    <div>
+      <>
+        <Router>
+          <Navigation />
           <TopCoin />
-          <Coins />
-        </Route>
-        <Route exact path="/coin-detail">
-          <CoinsDetail />
-        </Route>
-      </Switch>
-    </Router>
+          <Routes>
+            <Route path="/" element={<Coins />} />
+            <Route path="/TopCoin" element={<TopCoin />} />
+            <Route path="/coin-detail" element={<CoinsDetail />} />
+          </Routes>
+        </Router>
+      </>
+    </div>
   );
 }
 

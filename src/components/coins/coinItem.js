@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import style from './coinItem.css';
+import './coinItem.css';
 
 const CoinItem = ({
   coinId, coinName, coinValue, filter,
 }) => (
   <>
     <li>
-      <div className={style.coinItem}>
+      <div className="coinItem">
         <img alt="currency" src="https://img.icons8.com/fluency/35/000000/stack-of-coins.png" />
         <p>
           {`${coinId} `}
