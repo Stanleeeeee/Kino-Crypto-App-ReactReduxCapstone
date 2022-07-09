@@ -18,7 +18,9 @@
 ## Live Demo 
 [Heroku](https://kinocryptoapp.herokuapp.com/)
 
-[Netlify live-Demo]()
+
+
+[live-Video=Loom](https://www.loom.com/share/8cf18d87408d4956908e7b2cf2035248)
 
 ## Getting Started
 
