@@ -16,7 +16,7 @@
 - Jest
 
 ## Live Demo 
-[Heroku]()
+[Heroku](https://kinocryptoapp.herokuapp.com/)
 
 [Netlify live-Demo]()
 
