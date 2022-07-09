@@ -17,4 +17,3 @@ describe('Test app snapshots', () => {
     expect(screen.getByText('Most Valuable -')).toMatchSnapshot();
   });
 });
-

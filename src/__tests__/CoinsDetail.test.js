@@ -1,7 +1,7 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 import { Provider } from 'react-redux';
-import Coins from '../feature/coins/Coins';
+import Coins from '../components/coins/Coins';
 import App from '../App';
 import store from '../redux/configureStore';
 import { fetchGetCoins } from '../redux/coins';
