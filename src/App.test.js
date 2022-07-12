@@ -1,8 +1,19 @@
-import { render, screen } from '@testing-library/react';
+import React from 'react';
+import { render, screen, fireEvent } from '@testing-library/react';
+import '@testing-library/jest-dom/extend-expect';
+import { Provider } from 'react-redux';
+import store from './redux/configureStore';
 import App from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+describe('Test app snapshots', () => {
+  it('testing rendering of page', () => {
+    render(
+      <Provider store={store}>
+        <App />
+      </Provider>,
+    );
+    const mainHeader = screen.getElementByText('Cripto Live');
+    fireEvent.click(mainHeader);
+    expect(screen.getByText('Most Valuable -')).toMatchSnapshot();
+  });
 });
