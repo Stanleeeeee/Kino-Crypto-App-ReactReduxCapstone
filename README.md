@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Global Weather App
+# Kino Cryptocurrency App
 
-> This is a SPA react-app Capstone project that is built using an API. The user(s) can select and see the current value snd price of TOP 10 CRYPTO-CURRENCY. I built this project using react-redux and JavaScript..
+> This is a SPA react-app Capstone project that is built using API. The user(s) can select and see the current value and fluatuation of TOP 10 CRYPTO-CURRENCIES. I built this project using react-redux and JavaScript..
 
 
 ## Built With
