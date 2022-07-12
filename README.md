@@ -45,7 +45,7 @@ For running tests inside the project directory run npm test in command line or T
 
 ### Deployment
 
-I have used Netlify for deploying this project.
+I have used [HEROKU](https://kinocryptoapp.herokuapp.com/) for deploying this project.
 
 ## Authors
 
