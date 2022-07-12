@@ -19,9 +19,6 @@
 [Heroku](https://kinocryptoapp.herokuapp.com/)
 
 
-
-[live-Video=Loom](https://www.loom.com/share/8cf18d87408d4956908e7b2cf2035248)
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
