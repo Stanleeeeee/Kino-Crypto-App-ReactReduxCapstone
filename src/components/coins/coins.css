@@ -8,8 +8,8 @@
   justify-content: space-between;
   align-items: center;
   font-size: 15px;
-  color: white;
-  background-color: #35548b;
+  color: #fff;
+  background-color: #77632a;
   padding: 5px 10px;
 }
 
@@ -32,7 +32,7 @@ ul {
 
 .coinsContainer ul a:nth-child(4n+1) {
   background-color: #4066ad;
-  color: white;
+  color: #fff;
 }
 
 .coinsContainer ul a:nth-child(4n) {
@@ -51,9 +51,9 @@ ul {
 }
 
 .detailContainer {
-  background-color: #5689e5;
+  background-color: #fc120a;
   height: 85vh;
-  color: white;
+  color: #fff;
   text-align: center;
   font-size: 25px;
   display: flex;
