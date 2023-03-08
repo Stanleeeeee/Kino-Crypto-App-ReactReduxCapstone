@@ -10,6 +10,7 @@ const Coins = () => {
   const { coins } = useSelector((state) => state.coins);
   useEffect(() => {
     if (coins === undefined || coins.length === 0) dispatch(fetchGetCoins());
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   const { activeFilter } = useSelector((state) => state.coins);
   const handleChange = (event) => {
