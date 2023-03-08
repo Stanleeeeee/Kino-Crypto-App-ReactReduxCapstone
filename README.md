@@ -15,8 +15,9 @@
 - Webpack
 - Jest
 
-## Live Demo 
-[Heroku](https://kinocryptoapp.herokuapp.com/)
+## Live Link
+[Netlify]
+https://deploy-preview-2--kino-crypto.netlify.app/
 
 
 ## Getting Started
